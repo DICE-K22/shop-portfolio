@@ -1,0 +1,258 @@
+body {
+  font-size: 16px;
+}
+
+main {
+  background-color: #E6E2D7;
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.section-title {
+  writing-mode: vertical-lr;
+}
+
+.section-title .jp {
+  font-size: 36px;
+}
+
+.section-title .en {
+  font-size: 10.19px;
+}
+
+.contents img {
+  width: 639px;
+  height: 426px;
+}
+
+header {
+  width: 100%;
+  height: 600px;
+  background-image: url(img/mainvisual-pc.jpg);
+  background-size: cover;
+  background-position: 50% 60%;
+  writing-mode: vertical-lr;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header .online-store {
+  width: 68px;
+  height: 257px;
+  background-color: #FFFFFF33;
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 313px;
+}
+
+header .online-store a {
+  color: white;
+  border: 1px solid #CCCCCC;
+  padding: 30px 16px;
+  display: inline-block;
+  margin: 8px;
+}
+
+header .header-right {
+  margin-top: 60px;
+  margin-right: 80.5px;
+}
+
+header .header-right li {
+  list-style: none;
+  margin-right: 25px;
+}
+
+header .header-right li:last-child {
+  margin-right: 60px;
+}
+
+header .header-right a {
+  color: white;  
+}
+
+header .header-right h1 {
+  font-size: 39px;
+}
+
+#news {
+  writing-mode: vertical-lr;
+  padding-top: 184px;
+  margin-bottom: 184px;
+  margin-right: 25%;
+}
+
+#news .section-title {
+  display: flex;
+  flex-direction: column;
+}
+
+#news .section-title .jp {
+  margin-right: 15px;
+}
+
+
+#news .news-list {
+  margin-right: 100px;
+  margin-top: 72px;
+}
+
+#news .news-list .news {
+  height: 292px;
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
+  padding: 0 30px;
+  margin-right: -1px;
+}
+
+#news .news-list .news dd {
+  text-align: center;
+}
+
+#news .news-list .news dt {
+  margin-top: 10px;
+  font-size: 9px;
+  
+}
+
+#value {
+  display: flex;
+  justify-content: right;
+  margin-right: 23%;
+  margin-bottom: 184px;
+}
+
+#value .contents  {
+  position: relative;
+  margin-right: 20px;
+  margin-top: 90px;
+}
+
+#value .contents .value-text {
+  background-color: #F9E90699;
+  color: white;
+  padding: 53px 117px;
+  position: absolute;
+  top: 310px;
+  left: -25px;
+}
+
+#value .section-title .jp {
+  margin-bottom: 20px;
+}
+
+#science {
+  margin-bottom: 180px;
+  display: flex;
+}
+
+#science .section-title {
+  margin-right: 20px;
+}
+
+#science .section-title .jp {
+  margin-bottom: 20px;
+}
+
+#science .contents {
+  position: relative;
+  margin-top: 90px;
+}
+
+#science .contents .science-text {
+  background-color: #952A2699;
+  color: white;
+  padding: 53px 117px;
+  position: absolute;
+  top: 310px;
+  right: -25px;
+}
+
+#map {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+footer .footer-top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  writing-mode: vertical-lr;
+}
+
+footer .footer-left {
+  margin: 82px 0 167px 30px;
+}
+
+footer .footer-left ul {
+  display: flex;
+}
+
+footer .footer-left li {
+  border-bottom: 1px solid white;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+footer .footer-left li:last-child {
+  border: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+footer .footer-left a {
+  color: white;
+}
+
+footer .footer-right {
+  margin: 80px 80.5px 13px 0;
+}
+
+footer .footer-right ul {
+  margin-right: 60px;
+}
+
+footer .footer-right li {
+  margin-right: 25px;
+}
+
+footer .footer-right li:last-child {
+  margin-right: 0;
+}
+
+footer .footer-right a {
+  color: white;
+}
+
+footer .footer-right .address p {
+  margin-right: 7px;
+}
+
+footer .footer-right .address {
+  margin-right: 60px;
+}
+
+footer .footer-right .address p:last-child {
+  margin-right: 0;
+}
+
+footer .footer-right h1 {
+  font-size: 39px;
+}
+
+footer .copy {
+  font-size: 10px;
+  text-align: center;
+  padding-bottom: 31px;
+}
